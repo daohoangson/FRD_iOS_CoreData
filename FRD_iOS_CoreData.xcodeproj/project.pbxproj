@@ -15,6 +15,10 @@
 		1656F8F6147343E500819A7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1656F8F5147343E500819A7E /* AppDelegate.m */; };
 		1656F8F9147343E500819A7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1656F8F8147343E500819A7E /* ViewController.m */; };
 		1656F8FC147343E500819A7E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1656F8FA147343E500819A7E /* ViewController.xib */; };
+		1656F9041473452A00819A7E /* UIView+FindFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1656F9031473452A00819A7E /* UIView+FindFirstResponder.m */; };
+		1656F93D147351FC00819A7E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1656F93C147351FC00819A7E /* CoreData.framework */; };
+		1656F94614735DBF00819A7E /* FRD_iOS_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1656F94414735DBE00819A7E /* FRD_iOS_CoreData.xcdatamodeld */; };
+		1656F94914735E4B00819A7E /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 1656F94814735E4B00819A7E /* Info.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,21 @@
 		1656F8E5147343E500819A7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1656F8E7147343E500819A7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1656F8E9147343E500819A7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1656F8ED147343E500819A7E /* FRD_iOS_CoreData-Info.plist */ = {isa = PBXFileReference; path = "FRD_iOS_CoreData-Info.plist"; sourceTree = "<group>"; };
+		1656F8ED147343E500819A7E /* FRD_iOS_CoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FRD_iOS_CoreData-Info.plist"; sourceTree = "<group>"; };
 		1656F8EF147343E500819A7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1656F8F1147343E500819A7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1656F8F3147343E500819A7E /* FRD_iOS_CoreData-Prefix.pch */ = {isa = PBXFileReference; path = "FRD_iOS_CoreData-Prefix.pch"; sourceTree = "<group>"; };
-		1656F8F4147343E500819A7E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1656F8F3147343E500819A7E /* FRD_iOS_CoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FRD_iOS_CoreData-Prefix.pch"; sourceTree = "<group>"; };
+		1656F8F4147343E500819A7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1656F8F5147343E500819A7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1656F8F7147343E500819A7E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1656F8F7147343E500819A7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1656F8F8147343E500819A7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1656F8FB147343E500819A7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1656F9021473452A00819A7E /* UIView+FindFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindFirstResponder.h"; sourceTree = "<group>"; };
+		1656F9031473452A00819A7E /* UIView+FindFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindFirstResponder.m"; sourceTree = "<group>"; };
+		1656F93C147351FC00819A7E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1656F94514735DBF00819A7E /* FRD_iOS_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FRD_iOS_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		1656F94714735E4B00819A7E /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
+		1656F94814735E4B00819A7E /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1656F93D147351FC00819A7E /* CoreData.framework in Frameworks */,
 				1656F8E6147343E500819A7E /* UIKit.framework in Frameworks */,
 				1656F8E8147343E500819A7E /* Foundation.framework in Frameworks */,
 				1656F8EA147343E500819A7E /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +78,7 @@
 		1656F8E4147343E500819A7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1656F93C147351FC00819A7E /* CoreData.framework */,
 				1656F8E5147343E500819A7E /* UIKit.framework */,
 				1656F8E7147343E500819A7E /* Foundation.framework */,
 				1656F8E9147343E500819A7E /* CoreGraphics.framework */,
@@ -77,12 +89,17 @@
 		1656F8EB147343E500819A7E /* FRD_iOS_CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				1656F9021473452A00819A7E /* UIView+FindFirstResponder.h */,
+				1656F9031473452A00819A7E /* UIView+FindFirstResponder.m */,
 				1656F8F4147343E500819A7E /* AppDelegate.h */,
 				1656F8F5147343E500819A7E /* AppDelegate.m */,
 				1656F8F7147343E500819A7E /* ViewController.h */,
 				1656F8F8147343E500819A7E /* ViewController.m */,
 				1656F8FA147343E500819A7E /* ViewController.xib */,
 				1656F8EC147343E500819A7E /* Supporting Files */,
+				1656F94414735DBE00819A7E /* FRD_iOS_CoreData.xcdatamodeld */,
+				1656F94714735E4B00819A7E /* Info.h */,
+				1656F94814735E4B00819A7E /* Info.m */,
 			);
 			path = FRD_iOS_CoreData;
 			sourceTree = "<group>";
@@ -163,6 +180,9 @@
 				1656F8F2147343E500819A7E /* main.m in Sources */,
 				1656F8F6147343E500819A7E /* AppDelegate.m in Sources */,
 				1656F8F9147343E500819A7E /* ViewController.m in Sources */,
+				1656F9041473452A00819A7E /* UIView+FindFirstResponder.m in Sources */,
+				1656F94614735DBF00819A7E /* FRD_iOS_CoreData.xcdatamodeld in Sources */,
+				1656F94914735E4B00819A7E /* Info.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +294,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1656F94414735DBE00819A7E /* FRD_iOS_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1656F94514735DBF00819A7E /* FRD_iOS_CoreData.xcdatamodel */,
+			);
+			currentVersion = 1656F94514735DBF00819A7E /* FRD_iOS_CoreData.xcdatamodel */;
+			path = FRD_iOS_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1656F8D8147343E500819A7E /* Project object */;
 }
